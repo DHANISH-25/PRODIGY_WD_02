@@ -7,8 +7,9 @@ It includes key features like:
 - ✅ Record Lap times
 - ✅ Restart to reset the timer and laps
 
-![Stopwatch Screenshot](![image](https://github.com/user-attachments/assets/8be08621-ebe5-4e85-8dd5-f36488666b46)
-)
+![Stopwatch Screenshot]
+![image](https://github.com/user-attachments/assets/1021dd5d-7e9b-45e9-9fe5-2a860c0329bb)
+
 
 ---
 
