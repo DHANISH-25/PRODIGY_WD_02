@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+.Container{
+    width: 500px;
+    height: 400px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    text-align: center;
+}
+.stopwatch{
+    color: rgb(166, 221, 220);
+    background-color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.timer{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    text-align: center;
+}
+button{
+    background-color: beige;
+    border: 2px solid;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transform: transform 0.3s ease, all 0.3s ease;
+}
+button:hover{
+    background-color: lightyellow;
+    transform: scale(1.1);
+}
