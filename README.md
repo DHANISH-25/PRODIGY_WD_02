@@ -8,7 +8,7 @@ It includes key features like:
 - ✅ Restart to reset the timer and laps
 
 ![Stopwatch Screenshot]
-![image](https://github.com/user-attachments/assets/1021dd5d-7e9b-45e9-9fe5-2a860c0329bb)
+![image](https://github.com/user-attachments/assets/f2857b14-5dcc-40a6-b4e1-58dc4239e754)
 
 
 ---
