@@ -1,18 +1,25 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(40, 37, 109);
 }
 .Container{
     width: 500px;
-    height: 400px;
-    background-color: aliceblue;
+    height: 350px;
+    background-color: rgba(10, 18, 117, 0.695);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:auto;
     text-align: center;
-}
+    border-radius: 20px;
+    border: solid 1px rgb(73, 64, 247);
+    border-bottom: solid 1px rgb(139, 164, 231);
+    box-shadow: 0px 2px 3px black,
+    inset 0px 4px 5px rgb(104, 104, 217),
+      inset 0px -4px 5px rgb(7, 7, 153);
+}   
 .stopwatch{
-    color: rgb(166, 221, 220);
-    background-color: aliceblue;
+    color: rgb(239, 217, 13);
+    background-color: rgba(10, 18, 117, 0.695);
     font-size: 40px;
+    line-height: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -21,17 +28,48 @@ body{
     margin-bottom: 30px;
     font-size: 100px;
     text-align: center;
+    color: rgb(237, 239, 241);
 }
 button{
-    background-color: beige;
-    border: 2px solid;
-    border-radius: 40px;
-    font-size: 25px;
     padding: 10px 20px;
-    cursor: pointer;
-    transform: transform 0.3s ease, all 0.3s ease;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: solid 1px rgb(73, 64, 247);
+    border-bottom: solid 1px rgb(139, 164, 231);
+    background: linear-gradient(135deg, rgb(24, 67, 240), rgb(186, 158, 233));
+    color: #fff;
+    font-weight: bolder;
+    transition: all 0.2s ease;
+    box-shadow: 0px 2px 3px black,
+    inset 0px 4px 5px rgb(104, 104, 217),
+      inset 0px -4px 5px rgb(7, 7, 153);
 }
-button:hover{
-    background-color: lightyellow;
-    transform: scale(1.1);
+button:active{
+    box-shadow: inset 0px 4px 5px #0070f0,
+    inset 0px -4px 5px #002cbb;
+    transform: scale(0.995);
+}
+.Laptime{
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 500px;
+    height: 100%;
+    background-color: rgba(10, 18, 117, 0.695);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px rgb(73, 64, 247);
+    border-bottom: solid 1px rgb(139, 164, 231);
+    box-shadow: 0px 2px 3px black,
+    inset 0px 4px 5px rgb(104, 104, 217),
+      inset 0px -4px 5px rgb(7, 7, 153);
+}
+#laps{
+    list-style: none;
+    margin-left: -27px;
+    
 }
